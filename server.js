@@ -7,7 +7,7 @@ let mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 mongoose.set('debug', true);
 
-// remplacer toute cette chaine par l'URI de connexion à votre propre base dans le cloud s
+// remplacer toute cette chaine par l'URI de connexion à votre propre base dans le cloud 
 const uri = 'mongodb+srv://mbalazuc:bdd3406M@cluster0.3meq7.mongodb.net/assignmentsDB?retryWrites=true&w=majority&appName=Cluster0';
 
 const options = {
@@ -20,7 +20,7 @@ mongoose.connect(uri, options)
   .then(() => {
     console.log("Connecté à la base MongoDB assignments dans le cloud !");
     console.log("at URI = " + uri);
-    console.log("vérifiez with http://localhost:8010/api/assignments que cela fonctionne")
+    console.log("vérifiez avec /api/assignments que cela fonctionne")
     },
     err => {
       console.log('Erreur de connexion: ', err);
@@ -57,7 +57,7 @@ app.route(prefix + '/assignments')
 
 // On démarre le serveur
 app.listen(port, "0.0.0.0");
-console.log('Serveur démarré sur http://localhost:' + port);
+console.log('Serveur démarré sur' + port);
 
 module.exports = app;
 
