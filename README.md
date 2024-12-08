@@ -11,6 +11,16 @@ L'API est hébergée sur [Render](https://api-angular-matheobalazuc.onrender.com
 https://api-angular-matheobalazuc.onrender.com/api/assignments
 ```
 
+## Hébergement du projet Angular
+
+- **Front-end Angular** :
+  - Hébergé sur Render.com
+  - URL : [https://angular-matheobalazuc.onrender.com](https://angular-matheobalazuc.onrender.com)
+    
+- **Dépôt GitHub de l'Application Angular** :
+  - [Application Angular Repository GitHub](https://github.com/UCA-DS4H-MIAGE-M1/angular-matheobalazuc)
+
+
 ## Comment tester l'API
 
 Pour tester l'API, vous pouvez effectuer des requêtes à l'adresse ci-dessus. Par exemple :
